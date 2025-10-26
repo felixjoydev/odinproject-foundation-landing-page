@@ -1,0 +1,195 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: #1F2937;
+}
+
+.header-container {
+display: flex;
+width: 100%;
+max-width: 1280px;
+padding: 48px 100px;
+background-color: #1f2937;
+margin: 0 auto;
+justify-content: space-between;
+align-items: center;
+}
+
+.logo p{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.main-nav{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 32px;
+    margin: 0;
+    padding: 0;
+
+}
+
+.main-nav a:is(:link, :visited){
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    padding: 100px 100px;
+    margin: 0 auto;
+}
+
+#hero {
+    background-color: #1f2937;
+    
+}
+
+.hero-flex{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+
+}
+.hero-content h1{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+    
+}
+
+.hero-content p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-img{
+    max-width: 600px;
+    width: 100%;
+}
+
+.hero-img img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.hero-button 
+{
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 16px 32px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    display: inline-block;
+    margin-top: 24px;
+}
+
+
+
+#random-info h2{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.info-flex {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    margin-top: 32px;
+}
+
+.info-img{
+    max-width: 300px;
+    width: 100%;
+    text-align: center;
+ 
+
+}
+
+.info-img img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    
+}
+
+figcaption {
+    font-size: 18px;
+    color: #1f2937;
+    margin-top: 8px;
+}
+
+#quote {
+    background-color: #e5e7eb;
+    
+}
+
+blockquote p:first-child {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+blockquote p:last-child {
+    font-size: 18px;
+    color: #1F2937;
+    font-weight: 600;
+    text-align: right;
+    
+    
+}
+
+.cta-banner{
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px 100px;
+    color: white;
+    border-radius: 5px;
+}
+
+.cta-button{
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 16px 32px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+footer{
+    background-color: #1F2937;
+    padding: 32px;
+    text-align: center;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
